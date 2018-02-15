@@ -1,6 +1,7 @@
 {
   "name": "shulapp",
   "version": "0.0.0",
+  "main": "/server.js",
   "license": "MIT",
   "angular-cli": {},
   "scripts": {
