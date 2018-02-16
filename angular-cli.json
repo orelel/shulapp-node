@@ -8,7 +8,8 @@
       "root": "src",
       "outDir": "dist",
       "assets": [
-        "assets",
+        "images",
+        "fonts",
         "favicon.ico"
       ],
       "index": "index.html",
@@ -18,11 +19,19 @@
       "tsconfig": "tsconfig.json",
       "prefix": "app",
       "styles": [
-        "styles.css"
+        "scss/style.scss",
+        "../node_modules/mdi/css/materialdesignicons.min.css",
+        "../node_modules/simple-line-icons/css/simple-line-icons.css",
+        "../node_modules/perfect-scrollbar/css/perfect-scrollbar.css"
       ],
-      "scripts": [],
+      "scripts": [
+        "../node_modules/jquery/dist/jquery.min.js",
+        "../node_modules/bootstrap/dist/js/bootstrap.min.js",
+        "../node_modules/popper.js/dist/umd/popper.min.js",
+        "../node_modules/perfect-scrollbar/dist/perfect-scrollbar.min.js"
+      ],
+      "environmentSource": "environments/environment.ts",
       "environments": {
-        "source": "environments/environment.ts",
         "dev": "environments/environment.ts",
         "prod": "environments/environment.prod.ts"
       }
@@ -49,7 +58,7 @@
     }
   },
   "defaults": {
-    "styleExt": "css",
+    "styleExt": "scss",
     "prefixInterfaces": false,
     "inline": {
       "style": false,
