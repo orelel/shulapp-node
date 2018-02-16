@@ -22,7 +22,8 @@
         "scss/style.scss",
         "../node_modules/mdi/css/materialdesignicons.min.css",
         "../node_modules/simple-line-icons/css/simple-line-icons.css",
-        "../node_modules/perfect-scrollbar/css/perfect-scrollbar.css"
+        "../node_modules/perfect-scrollbar/css/perfect-scrollbar.css",
+        "../node_modules/font-awesome/css/font-awesome.min.css"
       ],
       "scripts": [
         "../node_modules/jquery/dist/jquery.min.js",
