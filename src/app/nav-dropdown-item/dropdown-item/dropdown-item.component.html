@@ -1,0 +1,15 @@
+<div class="dropdown-divider"></div>
+<a class="dropdown-item preview-item">
+  <div class="preview-thumbnail">
+    <img [src]="item.pic" alt="image" class="profile-pic">
+  </div>
+  <div class="preview-item-content flex-grow">
+    <h6 class="preview-subject ellipsis font-weight-medium">{{ item.username }}
+      <span class="float-right font-weight-light small-text">{{ item.time }}</span>
+    </h6>
+    <p class="font-weight-light small-text">
+      {{ item.title }}
+    </p>
+  </div>
+</a>
+
