@@ -37,7 +37,8 @@
     "ts-helpers": "^1.1.1",
     "zone.js": "^0.7.2",
     "@angular/cli": "^1.7.0",
-    "@angular/compiler-cli": "^5.2.5"
+    "@angular/compiler-cli": "^5.2.5",
+    "typescript": "~2.6.2"
   },
   "devDependencies": {
     "@types/jasmine": "2.5.38",
@@ -54,7 +55,6 @@
     "protractor": "~4.0.13",
     "ts-node": "1.2.1",
     "tslint": "^4.3.0",
-    "typescript": "~2.6.2",
     "webpack": "^3.11.0",
     "webpack-dev-server": "^2.11.1"
   }
