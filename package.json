@@ -35,11 +35,11 @@
     "simple-line-icons": "2.4.1",
     "sockjs-client": "^1.1.4",
     "ts-helpers": "^1.1.1",
-    "zone.js": "^0.7.2"
+    "zone.js": "^0.7.2",
+    "@angular/cli": "^1.7.0",
+    "@angular/compiler-cli": "^5.2.5"
   },
   "devDependencies": {
-    "@angular/cli": "^1.7.0",
-    "@angular/compiler-cli": "^5.2.5",
     "@types/jasmine": "2.5.38",
     "@types/node": "^6.0.42",
     "codelyzer": "~2.0.0-beta.1",
