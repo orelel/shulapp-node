@@ -40,12 +40,8 @@
     "@angular/compiler-cli": "^5.2.5",
     "typescript": "~2.6.2",
     "webpack-dev-server": "^2.11.1",
-    "compass-mixins": "^0.12.10"
-  },
-  "devDependencies": {
-    "@types/jasmine": "2.5.38",
-    "@types/node": "^6.0.42",
-    "codelyzer": "~2.0.0-beta.1",
+    "compass-mixins": "^0.12.10",
+     "codelyzer": "~2.0.0-beta.1",
     "jasmine-core": "2.5.2",
     "jasmine-spec-reporter": "2.5.0",
     "karma": "1.2.0",
@@ -56,6 +52,11 @@
     "protractor": "~4.0.13",
     "ts-node": "1.2.1",
     "tslint": "^4.3.0",
-    "webpack": "^3.11.0"
+    "webpack": "^3.11.0",
+    "@types/jasmine": "2.5.38",
+    "@types/node": "^6.0.42"
+  },
+  "devDependencies": {
+    
   }
 }
